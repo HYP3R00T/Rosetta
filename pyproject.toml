@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rosetta"
+version = "0.1.0"
+description = ""
+authors = ["hyp3r00t <rajesh@hyperoot.dev>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.5.45"
+mkdocs-roamlinks-plugin = "^0.3.2"
+mkdocs-callouts = "^1.14.1"
+termynal = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
