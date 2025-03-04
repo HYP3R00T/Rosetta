@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: startsWith(github.event.head_commit.message, 'docs')
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
