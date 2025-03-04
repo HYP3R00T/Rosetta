@@ -10,18 +10,18 @@ theme:
   name: "material"
   theme:
   palette:
-  - scheme: default
-    accent: deep purple
-    primary: deep purple
-    toggle:
-      icon: material/toggle-switch
-      name: Join the dark side. We have cookies.
   - scheme: slate
     accent: deep purple
     primary: deep purple
     toggle:
       icon: material/toggle-switch-off-outline
       name: Prepare for Flashbang!
+  - scheme: default
+    accent: deep purple
+    primary: deep purple
+    toggle:
+      icon: material/toggle-switch
+      name: Join the dark side. We have cookies.
   font:
     text: Inter
     code: Source Code Pro
